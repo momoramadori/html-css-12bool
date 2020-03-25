@@ -6,16 +6,20 @@
 
 body {
     background-color: black;
+    background-repeat: repeat;
+    background-position: left;
 }
 
 .container {
     background-color: black;
+
 }
 
-.col-1 {
-    height: calc( 1080px / 18 );
-    border: 2px solid black;
+.col-1, .col-2 {
+    border: 2px inset rgb(30, 30, 30);
+    height: calc( 970px / 18 );
 }
+
 .grey {
     background-color: rgb(102, 102, 102);
 }
@@ -42,4 +46,29 @@ body {
 
 .orange {
     background-color: rgb(244, 100, 0);
+}
+
+.darkgrey {
+    background-color: rgb(20, 20, 20);
+}
+
+.col-4 {
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#red {
+    color: red;
+}
+
+#yellow {
+    color: rgb(255, 255, 11);
 }
