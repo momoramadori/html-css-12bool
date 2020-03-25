@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+}
+
+.col-1 {
+    height: calc( 1080px / 18 );
+    border: 2px solid black;
+}
+.grey {
+    background-color: rgb(102, 102, 102);
+}
+
+.red {
+    background-color: red;
+}
+
+.lightblue {
+    background-color: rgb(60, 236, 238);
+}
+
+.purple {
+    background-color: rgb(239, 5, 247);
+}
+
+.yellow {
+    background-color: rgb(255, 255, 11);
+}
+
+.green {
+    background-color: rgb(72, 254, 0);
+}
+
+.orange {
+    background-color: rgb(244, 100, 0);
+}
